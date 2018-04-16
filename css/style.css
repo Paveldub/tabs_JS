@@ -1,0 +1,56 @@
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tabs {
+  width: 650px;
+}
+
+.tabs__menu {
+  padding: 0;
+  margin: 0;
+}
+
+.tabs__menu-item {
+  display: inline-block;
+  list-style: none;
+  width: 100px;
+  line-height: 35px;
+  background-color: #9e9e9e;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tabs__wrap-element {
+  overflow: auto;
+  height: 200px;
+  background-color: #00bcd4;
+  position: relative;
+}
+
+.tabs__element {
+  width: 100%;
+  position: absolute;
+  left: -9999px;
+  transition: opacity 2s;
+  opacity: 0;
+}
+
+.tabs__element--active {
+  left: 0;
+  opacity: 1;
+}
+
+.tabs__element-content {
+  padding: 15px;
+}
+
+.tabs__menu--active {
+  background-color: #00bcd4;
+}
