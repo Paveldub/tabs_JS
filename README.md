@@ -1,3 +1,3 @@
 # Tabs JavaScript
 
-link: 
+link: https://paveldub.github.io/tabs_js/
